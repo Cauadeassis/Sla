@@ -1,0 +1,29 @@
+body{
+    background-color: purple;
+    color: aqua;
+    font-family: sans-serif;
+    text-align: center;
+}
+div{
+    background-color: blue;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px;
+}
+input, button{
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+}
+h2 {
+    font-size: 30px;
+}
+button {
+    margin: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.1);
+}
